@@ -18,7 +18,7 @@ const CreatePost = () => {
   const [subtitle, setSubtitle] = useState('');
   const [text, setText] = useState('');
   const [image, setImage] = useState('');
-  const [category, setCategory] = useState('categoty');
+  const [category, setCategory] = useState('');
 
   const navigate = useNavigate()
   const publish = async () => {
